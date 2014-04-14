@@ -31,6 +31,7 @@
 		70A79BDB18FC77C4003BA214 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BDA18FC77C4003BA214 /* Security.framework */; };
 		70A79BDD18FC77CB003BA214 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BDC18FC77CB003BA214 /* StoreKit.framework */; };
 		70A79BDF18FC77D5003BA214 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BDE18FC77D5003BA214 /* SystemConfiguration.framework */; };
+		70A79BE218FC8683003BA214 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A79BE118FC8683003BA214 /* LogInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		70A79BDA18FC77C4003BA214 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		70A79BDC18FC77CB003BA214 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		70A79BDE18FC77D5003BA214 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		70A79BE018FC8683003BA214 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		70A79BE118FC8683003BA214 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,8 @@
 				70A79BA618FC7536003BA214 /* AppDelegate.h */,
 				70A79BA718FC7536003BA214 /* AppDelegate.m */,
 				70A79BA918FC7536003BA214 /* Main.storyboard */,
+				70A79BE018FC8683003BA214 /* LogInViewController.h */,
+				70A79BE118FC8683003BA214 /* LogInViewController.m */,
 				70A79BAC18FC7536003BA214 /* SignUpViewController.h */,
 				70A79BAD18FC7536003BA214 /* SignUpViewController.m */,
 				70A79BAF18FC7536003BA214 /* Images.xcassets */,
@@ -289,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A79BE218FC8683003BA214 /* LogInViewController.m in Sources */,
 				70A79BAE18FC7536003BA214 /* SignUpViewController.m in Sources */,
 				70A79BA818FC7536003BA214 /* AppDelegate.m in Sources */,
 				70A79BA418FC7536003BA214 /* main.m in Sources */,
