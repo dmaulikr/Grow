@@ -14,13 +14,23 @@
 		70A79BA418FC7536003BA214 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A79BA318FC7536003BA214 /* main.m */; };
 		70A79BA818FC7536003BA214 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A79BA718FC7536003BA214 /* AppDelegate.m */; };
 		70A79BAB18FC7536003BA214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A79BA918FC7536003BA214 /* Main.storyboard */; };
-		70A79BAE18FC7536003BA214 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A79BAD18FC7536003BA214 /* ViewController.m */; };
+		70A79BAE18FC7536003BA214 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A79BAD18FC7536003BA214 /* SignUpViewController.m */; };
 		70A79BB018FC7536003BA214 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A79BAF18FC7536003BA214 /* Images.xcassets */; };
 		70A79BB718FC7536003BA214 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BB618FC7536003BA214 /* XCTest.framework */; };
 		70A79BB818FC7536003BA214 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79B9718FC7536003BA214 /* Foundation.framework */; };
 		70A79BB918FC7536003BA214 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79B9B18FC7536003BA214 /* UIKit.framework */; };
 		70A79BC118FC7536003BA214 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70A79BBF18FC7536003BA214 /* InfoPlist.strings */; };
 		70A79BC318FC7536003BA214 /* GrowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A79BC218FC7536003BA214 /* GrowTests.m */; };
+		70A79BCD18FC7594003BA214 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BCC18FC7594003BA214 /* Parse.framework */; };
+		70A79BCF18FC777C003BA214 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BCE18FC777C003BA214 /* AudioToolbox.framework */; };
+		70A79BD118FC7794003BA214 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BD018FC7794003BA214 /* CFNetwork.framework */; };
+		70A79BD318FC77A4003BA214 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BD218FC77A4003BA214 /* CoreLocation.framework */; };
+		70A79BD518FC77AE003BA214 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BD418FC77AE003BA214 /* libz.dylib */; };
+		70A79BD718FC77B5003BA214 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BD618FC77B5003BA214 /* MobileCoreServices.framework */; };
+		70A79BD918FC77BD003BA214 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BD818FC77BD003BA214 /* QuartzCore.framework */; };
+		70A79BDB18FC77C4003BA214 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BDA18FC77C4003BA214 /* Security.framework */; };
+		70A79BDD18FC77CB003BA214 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BDC18FC77CB003BA214 /* StoreKit.framework */; };
+		70A79BDF18FC77D5003BA214 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BDE18FC77D5003BA214 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +55,24 @@
 		70A79BA618FC7536003BA214 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		70A79BA718FC7536003BA214 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		70A79BAA18FC7536003BA214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		70A79BAC18FC7536003BA214 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		70A79BAD18FC7536003BA214 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70A79BAC18FC7536003BA214 /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		70A79BAD18FC7536003BA214 /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		70A79BAF18FC7536003BA214 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		70A79BB518FC7536003BA214 /* GrowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A79BB618FC7536003BA214 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		70A79BBE18FC7536003BA214 /* GrowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrowTests-Info.plist"; sourceTree = "<group>"; };
 		70A79BC018FC7536003BA214 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70A79BC218FC7536003BA214 /* GrowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrowTests.m; sourceTree = "<group>"; };
+		70A79BCC18FC7594003BA214 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		70A79BCE18FC777C003BA214 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		70A79BD018FC7794003BA214 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		70A79BD218FC77A4003BA214 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		70A79BD418FC77AE003BA214 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		70A79BD618FC77B5003BA214 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		70A79BD818FC77BD003BA214 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		70A79BDA18FC77C4003BA214 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		70A79BDC18FC77CB003BA214 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		70A79BDE18FC77D5003BA214 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +80,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70A79BDF18FC77D5003BA214 /* SystemConfiguration.framework in Frameworks */,
+				70A79BDD18FC77CB003BA214 /* StoreKit.framework in Frameworks */,
+				70A79BDB18FC77C4003BA214 /* Security.framework in Frameworks */,
+				70A79BD918FC77BD003BA214 /* QuartzCore.framework in Frameworks */,
+				70A79BD718FC77B5003BA214 /* MobileCoreServices.framework in Frameworks */,
+				70A79BD518FC77AE003BA214 /* libz.dylib in Frameworks */,
+				70A79BD318FC77A4003BA214 /* CoreLocation.framework in Frameworks */,
+				70A79BD118FC7794003BA214 /* CFNetwork.framework in Frameworks */,
+				70A79BCF18FC777C003BA214 /* AudioToolbox.framework in Frameworks */,
 				70A79B9A18FC7536003BA214 /* CoreGraphics.framework in Frameworks */,
 				70A79B9C18FC7536003BA214 /* UIKit.framework in Frameworks */,
+				70A79BCD18FC7594003BA214 /* Parse.framework in Frameworks */,
 				70A79B9818FC7536003BA214 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +112,7 @@
 		70A79B8B18FC7536003BA214 = {
 			isa = PBXGroup;
 			children = (
+				70A79BCC18FC7594003BA214 /* Parse.framework */,
 				70A79B9D18FC7536003BA214 /* Grow */,
 				70A79BBC18FC7536003BA214 /* GrowTests */,
 				70A79B9618FC7536003BA214 /* Frameworks */,
@@ -101,6 +132,15 @@
 		70A79B9618FC7536003BA214 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				70A79BDE18FC77D5003BA214 /* SystemConfiguration.framework */,
+				70A79BDC18FC77CB003BA214 /* StoreKit.framework */,
+				70A79BDA18FC77C4003BA214 /* Security.framework */,
+				70A79BD818FC77BD003BA214 /* QuartzCore.framework */,
+				70A79BD618FC77B5003BA214 /* MobileCoreServices.framework */,
+				70A79BD418FC77AE003BA214 /* libz.dylib */,
+				70A79BD218FC77A4003BA214 /* CoreLocation.framework */,
+				70A79BD018FC7794003BA214 /* CFNetwork.framework */,
+				70A79BCE18FC777C003BA214 /* AudioToolbox.framework */,
 				70A79B9718FC7536003BA214 /* Foundation.framework */,
 				70A79B9918FC7536003BA214 /* CoreGraphics.framework */,
 				70A79B9B18FC7536003BA214 /* UIKit.framework */,
@@ -115,8 +155,8 @@
 				70A79BA618FC7536003BA214 /* AppDelegate.h */,
 				70A79BA718FC7536003BA214 /* AppDelegate.m */,
 				70A79BA918FC7536003BA214 /* Main.storyboard */,
-				70A79BAC18FC7536003BA214 /* ViewController.h */,
-				70A79BAD18FC7536003BA214 /* ViewController.m */,
+				70A79BAC18FC7536003BA214 /* SignUpViewController.h */,
+				70A79BAD18FC7536003BA214 /* SignUpViewController.m */,
 				70A79BAF18FC7536003BA214 /* Images.xcassets */,
 				70A79B9E18FC7536003BA214 /* Supporting Files */,
 			);
@@ -249,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A79BAE18FC7536003BA214 /* ViewController.m in Sources */,
+				70A79BAE18FC7536003BA214 /* SignUpViewController.m in Sources */,
 				70A79BA818FC7536003BA214 /* AppDelegate.m in Sources */,
 				70A79BA418FC7536003BA214 /* main.m in Sources */,
 			);
@@ -376,6 +416,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Grow/Grow-Prefix.pch";
 				INFOPLIST_FILE = "Grow/Grow-Info.plist";
@@ -389,6 +433,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Grow/Grow-Prefix.pch";
 				INFOPLIST_FILE = "Grow/Grow-Info.plist";
