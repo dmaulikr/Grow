@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>New item</key>
-	<array>
-		<dict/>
-	</array>
+	<string>choices</string>
+	<key>New item - 2</key>
+	<string></string>
 </dict>
 </plist>

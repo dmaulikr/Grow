@@ -1,21 +1,18 @@
 {
-    "text": "you find yourself..."
-    choices: "
+    "text": "you start here with these choices"
+    choice: "
     [
         {
-            "choice_text": "Bahaha",
-            "page": "/enemies/bossy-bosser-eye-alive.png",
-            "tree_wilt": "/enemies/bossy-bosser-eye-dead.png",
-            "character_choices":
-            [
-                {
-                    "messageA": "you wake up underground, in a cavernous space with slimy walls and minimal light"
-                },
-                {
-                    "messageB": "you decide to go for broke, all in, swing left swing right, the tree grows"
-                }
-            ],
-           
+            "choice_text": "there was a road with many jesters to the left"}
+                 choices:[ "you CHOOSE 1",
+                           "you CHOOSE 2"]
         }
+
+        {
+            "choice_text": "the jesters were red"}
+            choices:[ "you CHOOSE 1.1",
+                      "you CHOOSE 1.2"]
+        }
+
     ]
 }

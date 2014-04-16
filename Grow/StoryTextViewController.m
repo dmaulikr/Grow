@@ -24,13 +24,13 @@
 //-(void)loadStoryboard
 //{
 //    NSDictionary *jsondataPage = [NSDictionary new];
-//    NSArray *beginningPointsArray = [jsondataPage objectForKey:@"beginningPoints"];
-//    NSDictionary *character_choicesDictionary = [beginningPointsArray ob]
+//    NSArray *choicesArray = [jsondataPage objectForKey:@"choices"];
+//    NSDictionary *pageDictionary = [choicesArray objec]
 //
 //    for (NSDictionary * in beginningPoints)
 //    {
 //        self.messageButtonA.text = [beginningPoints valueForKey:@"messageA"]
-//    }
+//    };
 //}
 
 @end
