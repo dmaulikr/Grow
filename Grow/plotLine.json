@@ -1,18 +1,19 @@
 {
-    "text": "you start here with these choices"
-    choice: "
-    [
-        {
-            "choice_text": "there was a road with many jesters to the left"}
-                 choices:[ "you CHOOSE 1",
-                           "you CHOOSE 2"]
-        }
-
-        {
-            "choice_text": "the jesters were red"}
-            choices:[ "you CHOOSE 1.1",
-                      "you CHOOSE 1.2"]
-        }
-
-    ]
-}
+    "opening_text": "you start here with these choices",
+    "allPagesInStory": [
+               {
+               "page_text": "therewasaroadwithmanyjesterstotheleft",
+               "buttonchoices": [
+                           "youCHOOSE1",
+                           "youCHOOSE2"
+                           ]
+               },
+               {
+               "page_text": "thejesterswerered",
+               "buttonchoices": [
+                           "youCHOOSE1.1",
+                           "youCHOOSE1.2"
+                           ]
+               }
+               ]
+}        

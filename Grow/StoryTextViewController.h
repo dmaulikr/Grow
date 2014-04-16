@@ -10,4 +10,6 @@
 
 @interface StoryTextViewController : UIViewController
 
+@property (nonatomic) NSInteger pointInStory;
+
 @end

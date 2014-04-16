@@ -10,6 +10,7 @@
 
 @interface StoryTextViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextView *storyText;
 @property (strong, nonatomic) NSDictionary *jsondataPage;
 @property (strong, nonatomic) IBOutlet UIButton *messageButtonA;
 
@@ -19,18 +20,26 @@
 
 @implementation StoryTextViewController
 
+-(void)viewDidLoad
+{
+    [self loadStoryboard];
+}
+
+-(void)loadStoryboard
+{
+    //NSArray *publicTimeline = [NSJSONSerialization JSONObjectWithData:response options:0 error:&jsonParsingError];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"plotLine" ofType:@"json"];
+    NSString *jsonString = [[NSString alloc] initWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error: NULL];
+    //NSData *jsonData = [[NSString alloc] initWithCoder:jsonString];
+    NSDictionary *jsonDataPage = [NSJSONSerialization JSONObjectWithData:[jsonString dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
+    NSArray *allPagesInStory = [jsonDataPage objectForKey:@"allPagesInStory"];
+    NSDictionary *pageData = allPagesInStory[self.pointInStory];
+    self.storyText.text = pageData[@"page_text"];
+    [self.messageButtonA setTitle:pageData[@"buttonchoices"][0] forState:UIControlStateNormal];
+//put all possible button onto the vc
+//make a FOR LOOPS for the state of the buttons - reference the self.buttonCount, if the count is greater then the count of the number of indexes in the buttonchoices array (in the json) then set the state of the the 3 and for buttons to hidden and vice versa
 
 
-//-(void)loadStoryboard
-//{
-//    NSDictionary *jsondataPage = [NSDictionary new];
-//    NSArray *choicesArray = [jsondataPage objectForKey:@"choices"];
-//    NSDictionary *pageDictionary = [choicesArray objec]
-//
-//    for (NSDictionary * in beginningPoints)
-//    {
-//        self.messageButtonA.text = [beginningPoints valueForKey:@"messageA"]
-//    };
-//}
+}
 
 @end
