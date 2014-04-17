@@ -1,19 +1,31 @@
 {
     "opening_text": "you start here with these choices",
     "allPagesInStory": [
-               {
-               "page_text": "therewasaroadwithmanyjesterstotheleft",
-               "buttonchoices": [
-                           "youCHOOSE1",
-                           "youCHOOSE2"
-                           ]
-               },
-               {
-               "page_text": "thejesterswerered",
-               "buttonchoices": [
-                           "youCHOOSE1.1",
-                           "youCHOOSE1.2"
-                           ]
-               }
-               ]
-}        
+                        {
+                        "page_text": "I AM INDEX 0, therewasaroadwithmanyjesterstotheleft",
+                        "choices": [
+                                    {
+                                    "buttontext": "youChoose_1",
+                                    "indexToNextPage": 1
+                                    },
+                                    {
+                                    "buttontext": "youChoose_2",
+                                    "indexToNextPage": 2
+                                    }
+                                    ]
+                        },
+                        {
+                        "page_text": "I AM INDEX 0, therewasaroadwithmanyjesterstotheleft",
+                        "choices": [
+                                    {
+                                    "buttontext": "youChoose_1",
+                                    "indexToNextPage": 1
+                                    },
+                                    {
+                                    "buttontext": "youChoose_1",
+                                    "indexToNextPage": 2
+                                    }
+                                    ]
+                        }
+                        ]
+}

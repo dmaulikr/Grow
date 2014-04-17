@@ -33,8 +33,8 @@
 		70A79BDF18FC77D5003BA214 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A79BDE18FC77D5003BA214 /* SystemConfiguration.framework */; };
 		70A79BE218FC8683003BA214 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A79BE118FC8683003BA214 /* LogInViewController.m */; };
 		70A79BE518FD8DA2003BA214 /* StoryTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A79BE418FD8DA2003BA214 /* StoryTextViewController.m */; };
-		70A79BE718FD9469003BA214 /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70A79BE618FD9469003BA214 /* Property List.plist */; };
 		70A79BE918FD9FB4003BA214 /* plotLine.json in Resources */ = {isa = PBXBuildFile; fileRef = 70A79BE818FD9FB4003BA214 /* plotLine.json */; };
+		7E46CFE518FF2E3200ED7426 /* TreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E46CFE418FF2E3200ED7426 /* TreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,8 +81,9 @@
 		70A79BE118FC8683003BA214 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		70A79BE318FD8DA2003BA214 /* StoryTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryTextViewController.h; sourceTree = "<group>"; };
 		70A79BE418FD8DA2003BA214 /* StoryTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryTextViewController.m; sourceTree = "<group>"; };
-		70A79BE618FD9469003BA214 /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
 		70A79BE818FD9FB4003BA214 /* plotLine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plotLine.json; sourceTree = "<group>"; };
+		7E46CFE318FF2E3200ED7426 /* TreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeViewController.h; sourceTree = "<group>"; };
+		7E46CFE418FF2E3200ED7426 /* TreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,9 +166,10 @@
 				70A79BA618FC7536003BA214 /* AppDelegate.h */,
 				70A79BA718FC7536003BA214 /* AppDelegate.m */,
 				70A79BA918FC7536003BA214 /* Main.storyboard */,
+				7E46CFE318FF2E3200ED7426 /* TreeViewController.h */,
+				7E46CFE418FF2E3200ED7426 /* TreeViewController.m */,
 				70A79BE318FD8DA2003BA214 /* StoryTextViewController.h */,
 				70A79BE418FD8DA2003BA214 /* StoryTextViewController.m */,
-				70A79BE618FD9469003BA214 /* Property List.plist */,
 				70A79BE818FD9FB4003BA214 /* plotLine.json */,
 				70A79BE018FC8683003BA214 /* LogInViewController.h */,
 				70A79BE118FC8683003BA214 /* LogInViewController.m */,
@@ -287,7 +289,6 @@
 				70A79BB018FC7536003BA214 /* Images.xcassets in Resources */,
 				70A79BE918FD9FB4003BA214 /* plotLine.json in Resources */,
 				70A79BA218FC7536003BA214 /* InfoPlist.strings in Resources */,
-				70A79BE718FD9469003BA214 /* Property List.plist in Resources */,
 				70A79BAB18FC7536003BA214 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,6 +312,7 @@
 				70A79BAE18FC7536003BA214 /* SignUpViewController.m in Sources */,
 				70A79BE518FD8DA2003BA214 /* StoryTextViewController.m in Sources */,
 				70A79BA818FC7536003BA214 /* AppDelegate.m in Sources */,
+				7E46CFE518FF2E3200ED7426 /* TreeViewController.m in Sources */,
 				70A79BA418FC7536003BA214 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

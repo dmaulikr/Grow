@@ -14,6 +14,7 @@
 @property (strong, nonatomic) NSDictionary *jsondataPage;
 @property (strong, nonatomic) IBOutlet UIButton *messageButtonA;
 
+@property (weak, nonatomic) IBOutlet UIButton *messageButtonB;
 @end
 
 
@@ -34,12 +35,14 @@
     NSDictionary *jsonDataPage = [NSJSONSerialization JSONObjectWithData:[jsonString dataUsingEncoding:NSUTF8StringEncoding] options:0 error:nil];
     NSArray *allPagesInStory = [jsonDataPage objectForKey:@"allPagesInStory"];
     NSDictionary *pageData = allPagesInStory[self.pointInStory];
+    
+
     self.storyText.text = pageData[@"page_text"];
-    [self.messageButtonA setTitle:pageData[@"buttonchoices"][0] forState:UIControlStateNormal];
+    NSArray *buttonChoices = pageData[@"choices"];
+    
+    [self.messageButtonA setTitle:buttonChoices[0][@"buttontext"] forState:UIControlStateNormal];
+    [self.messageButtonB setTitle:buttonChoices[1][@"buttontext"] forState:UIControlStateNormal];
 //put all possible button onto the vc
 //make a FOR LOOPS for the state of the buttons - reference the self.buttonCount, if the count is greater then the count of the number of indexes in the buttonchoices array (in the json) then set the state of the the 3 and for buttons to hidden and vice versa
-
-
 }
-
 @end
