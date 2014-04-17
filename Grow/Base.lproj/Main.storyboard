@@ -175,6 +175,9 @@
                                 <state key="normal" title="messageButtonA">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="EitherButtonTappedPopulateNextPage:" destination="I9B-V7-6Kr" eventType="touchUpInside" id="4IE-o9-Qm1"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5hp-UL-zFp">
                                 <rect key="frame" x="40" y="31" width="240" height="248"/>
@@ -190,6 +193,9 @@
                                 <state key="normal" title="messageButtonB">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="EitherButtonTappedPopulateNextPage:" destination="I9B-V7-6Kr" eventType="touchUpInside" id="8S2-mW-pHw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
