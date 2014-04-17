@@ -1,0 +1,45 @@
+{
+    "opening_text": "you start here with these choices",
+    "allPagesInStory": [
+                        {
+                        "page_text": "I AM INDEX 0, there was a road with many jesters on it",
+                        "choices": [
+                                    {
+                                    "buttontext": "youChoose_1",
+                                    "indexToNextPage": 1
+                                    },
+                                    {
+                                    "buttontext": "youChoose_2",
+                                    "indexToNextPage": 2
+                                    }
+                                    ]
+                        },
+                        {
+                        "page_text": "I AM INDEX 1, the jesters sure are creepy-lookin I thought to myself",
+                        "choices": [
+                                    {
+                                    "buttontext": "youChoose_1",
+                                    "indexToNextPage": 1
+                                    },
+                                    {
+                                    "buttontext": "youChoose_2",
+                                    "indexToNextPage": 2
+                                    }
+                                    ]
+                        },
+                        {
+                        "page_text": "I AM INDEX 2, suddenly, a bridge appeared on the horizon, populated by one very large troll",
+                        "choices": [
+                                    {
+                                    "buttontext": "youChoose_1",
+                                    "indexToNextPage": 1
+                                    },
+                                    {
+                                    "buttontext": "youChoose_2",
+                                    "indexToNextPage": 2
+                                    }
+                                    ]
+                        }
+
+                        ]
+}
