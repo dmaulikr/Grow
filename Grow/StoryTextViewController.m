@@ -13,8 +13,7 @@
     NSArray *allPagesInStory;
 }
 @property (strong, nonatomic) NSDictionary *jsondataPage;
-
-@property (weak, nonatomic) IBOutlet UITextView *storyText;
+@property (weak, nonatomic) IBOutlet UILabel *storyText;
 @property (strong, nonatomic) IBOutlet UIButton *messageButtonA;
 @property (weak, nonatomic) IBOutlet UIButton *messageButtonB;
 @property (strong, nonatomic) NSDictionary *pageData;
