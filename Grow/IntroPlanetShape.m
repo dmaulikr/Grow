@@ -11,12 +11,16 @@
 @implementation IntroPlanetShape
 
 -(IntroPlanetShape *)createPlanetShapeContents
-{
-    UIBezierPath* ovalPath = [UIBezierPath bezierPathWithOvalInRect: CGRectMake(-422.5 - 320, -1233.5, 1500, 1500)];
-    self.path = [ovalPath CGPath];
-    self.strokeColor = [SKColor whiteColor];
-    self.fillColor = [SKColor whiteColor];
-    self.name = @"planet";
-    return self;
+{                                                                       //x,y, width, height
+//    UIBezierPath* ovalPath = [UIBezierPath bezierPathWithOvalInRect: CGRectMake(320, 300, 200, 200)];
+//    self.path = [ovalPath CGPath];
+//    self.strokeColor = [SKColor whiteColor];
+//    self.fillColor = [SKColor whiteColor];
+//    self.name = @"planet";
+//    return self;
+
+    IntroPlanetShape *introPlanetShape = [IntroPlanetShape spriteNodeWithImageNamed:@"GrowProject_bg1planets.png"];
+    introPlanetShape.position = CGPointMake(100,100);
+    return introPlanetShape;
 }
 @end

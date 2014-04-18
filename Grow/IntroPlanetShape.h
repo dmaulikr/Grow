@@ -8,7 +8,7 @@
 
 #import <SpriteKit/SpriteKit.h>
 
-@interface IntroPlanetShape : SKShapeNode
+@interface IntroPlanetShape : SKSpriteNode
 
 -(IntroPlanetShape *)createPlanetShapeContents;
 

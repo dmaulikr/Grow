@@ -53,7 +53,7 @@
 
 -(IntroPlanetShape *)createIntroPlanetShape
 {
-    IntroPlanetShape *introPlanetShape = [IntroPlanetShape node];
+    IntroPlanetShape *introPlanetShape = [IntroPlanetShape spriteNodeWithImageNamed:@"GrowProject_bg1planets.png"];
     [introPlanetShape createPlanetShapeContents];
     return introPlanetShape;
 }
