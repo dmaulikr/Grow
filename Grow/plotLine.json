@@ -2,7 +2,7 @@
     "opening_text": "you start here with these choices",
     "allPagesInStory": [
                         {
-                        "page_text": "I AM INDEX 0, there was a road with many jesters on it",
+                        "page_text": "(INDEX 0), there once was a cohort so bright, never a word they did utter to fight. They coded all day and then through the night, oh never there was such a cohort so bright",
                         "choices": [
                                     {
                                     "buttontext": "youChoose_1",
@@ -15,7 +15,7 @@
                                     ]
                         },
                         {
-                        "page_text": "I AM INDEX 1, the jesters sure are creepy-lookin I thought to myself",
+                        "page_text": "(INDEX 1), I like to wear flannel he said. It suits the long hair on my head. I'm a pretty smart guy, my code is so fly and every question I answer with wry (wit) (Don)",
                         "choices": [
                                     {
                                     "buttontext": "youChoose_1",
@@ -28,7 +28,7 @@
                                     ]
                         },
                         {
-                        "page_text": "I AM INDEX 2, suddenly, a bridge appeared on the horizon, populated by one very large troll",
+                        "page_text": "(INDEX 2), what the heck exclaimed Max, this curly is wack, and I can't understand these poor fools. They're accent is flat, and they ask how to do this and that, oh why, oh why tell me why ",
                         "choices": [
                                     {
                                     "buttontext": "youChoose_1",
@@ -36,7 +36,7 @@
                                     },
                                     {
                                     "buttontext": "youChoose_2",
-                                    "indexToNextPage": 2
+                                    "indexToNextPage": 0
                                     }
                                     ]
                         }
