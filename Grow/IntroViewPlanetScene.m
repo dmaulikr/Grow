@@ -38,7 +38,9 @@
 
     GrowLabelNode *growLabelNode = [self createGrowLabelNode];
     [self addChild:growLabelNode];
-
+    IntroPlanetShape *introPlanetShape = [self createIntroPlanetShape];
+    [self addChild:introPlanetShape];
+    
 
 }
 
@@ -49,6 +51,12 @@
     return growLabelNode;
 } 
 
+-(IntroPlanetShape *)createIntroPlanetShape
+{
+    IntroPlanetShape *introPlanetShape = [IntroPlanetShape node];
+    [introPlanetShape createPlanetShapeContents];
+    return introPlanetShape;
+}
 -(void)handleTap:(UITapGestureRecognizer *)tapGestureRecognizer
 {
 
