@@ -10,6 +10,7 @@
 #import "IntroPlanetShape.h"
 #import "GrowLabelNode.h"
 #import "IntroPlanetShape.h"
+#import "GrowText.h"
 
 @interface IntroViewPlanetScene ()
 
@@ -36,25 +37,41 @@
     self.backgroundColor = [SKColor blackColor];
     self.scaleMode = SKSceneScaleModeAspectFill;
 
-    GrowLabelNode *growLabelNode = [self createGrowLabelNode];
-    [self addChild:growLabelNode];
+//    GrowLabelNode *growLabelNode = [self createGrowLabelNode];
+//    [self addChild:growLabelNode];
     IntroPlanetShape *introPlanetShape = [self createIntroPlanetShape];
     [self addChild:introPlanetShape];
-    
+    GrowText *growText = [self createGrowText];
+    [self addChild:growText];
+    SKAction *rotate = [SKAction rotateByAngle:M_PI duration:20];
+//    SKAction *grow = [SKAction scaleBy:3 duration:3];
+//    SKAction *shrink = [SKAction scaleBy:1/3 duration:3];
+//    SKAction *keepRotating = [SKAction rotateByAngle:-M_1_PI duration:15];
+
+
+    [introPlanetShape runAction:[SKAction repeatActionForever:rotate]];
+//    [introPlanetShape runAction:shrink];
+//    [introPlanetShape runAction:grow];
+//    [introPlanetShape runAction:keepRotating];
 
 }
-
--(GrowLabelNode *)createGrowLabelNode
+-(GrowText *)createGrowText
 {
-    GrowLabelNode *growLabelNode = [GrowLabelNode node];
-    growLabelNode = [growLabelNode createGrowLabelNodeContents];
-    return growLabelNode;
-} 
+    GrowText *growText = [GrowText node];
+    growText = [growText createGrowTextContents];
+    return growText;
+}
+//-(GrowLabelNode *)createGrowLabelNode
+//{
+//    GrowLabelNode *growLabelNode = [GrowLabelNode node];
+//    growLabelNode = [growLabelNode createGrowLabelNodeContents];
+//    return growLabelNode;
+//} 
 
 -(IntroPlanetShape *)createIntroPlanetShape
 {
-    IntroPlanetShape *introPlanetShape = [IntroPlanetShape spriteNodeWithImageNamed:@"GrowProject_bg1planets.png"];
-    [introPlanetShape createPlanetShapeContents];
+    IntroPlanetShape *introPlanetShape = [IntroPlanetShape node];
+   introPlanetShape = [introPlanetShape createPlanetShapeContents];
     return introPlanetShape;
 }
 -(void)handleTap:(UITapGestureRecognizer *)tapGestureRecognizer

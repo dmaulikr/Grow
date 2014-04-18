@@ -10,7 +10,7 @@
 
 @implementation IntroPlanetShape
 
--(IntroPlanetShape *)createPlanetShapeContents
+-(IntroPlanetShape *)createPlanetShapeContents 
 {                                                                       //x,y, width, height
 //    UIBezierPath* ovalPath = [UIBezierPath bezierPathWithOvalInRect: CGRectMake(320, 300, 200, 200)];
 //    self.path = [ovalPath CGPath];
@@ -19,8 +19,11 @@
 //    self.name = @"planet";
 //    return self;
 
-    IntroPlanetShape *introPlanetShape = [IntroPlanetShape spriteNodeWithImageNamed:@"GrowProject_bg1planets.png"];
-    introPlanetShape.position = CGPointMake(100,100);
+    IntroPlanetShape *introPlanetShape = [IntroPlanetShape spriteNodeWithImageNamed:@"GrowPlanetConcept1copy.png"];
+    introPlanetShape.size = CGSizeMake(500, 500);
+    introPlanetShape.position = CGPointMake(330, 450);
     return introPlanetShape;
+
+    
 }
 @end

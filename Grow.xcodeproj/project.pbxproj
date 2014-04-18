@@ -39,7 +39,9 @@
 		7E46CFED1900AF9500ED7426 /* IntroViewPlanetScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E46CFEC1900AF9500ED7426 /* IntroViewPlanetScene.m */; };
 		7E46CFF01900BE4100ED7426 /* IntroPlanetShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E46CFEF1900BE4100ED7426 /* IntroPlanetShape.m */; };
 		7E46CFF31900BF0800ED7426 /* GrowLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E46CFF21900BF0800ED7426 /* GrowLabelNode.m */; };
-		7E46CFF519018AD000ED7426 /* GrowProject_bg1planets.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E46CFF419018AD000ED7426 /* GrowProject_bg1planets.png */; };
+		7E46CFF819019BC400ED7426 /* GrowText.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E46CFF719019BC400ED7426 /* GrowText.m */; };
+		7E46CFFA19019C9A00ED7426 /* GrayScaleLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E46CFF919019C9A00ED7426 /* GrayScaleLogo.png */; };
+		7E46CFFC1901AFD100ED7426 /* GrowPlanetConcept1copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E46CFFB1901AFD100ED7426 /* GrowPlanetConcept1copy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,7 +98,10 @@
 		7E46CFEF1900BE4100ED7426 /* IntroPlanetShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroPlanetShape.m; sourceTree = "<group>"; };
 		7E46CFF11900BF0800ED7426 /* GrowLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowLabelNode.h; sourceTree = "<group>"; };
 		7E46CFF21900BF0800ED7426 /* GrowLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowLabelNode.m; sourceTree = "<group>"; };
-		7E46CFF419018AD000ED7426 /* GrowProject_bg1planets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrowProject_bg1planets.png; sourceTree = "<group>"; };
+		7E46CFF619019BC400ED7426 /* GrowText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowText.h; sourceTree = "<group>"; };
+		7E46CFF719019BC400ED7426 /* GrowText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowText.m; sourceTree = "<group>"; };
+		7E46CFF919019C9A00ED7426 /* GrayScaleLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrayScaleLogo.png; sourceTree = "<group>"; };
+		7E46CFFB1901AFD100ED7426 /* GrowPlanetConcept1copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrowPlanetConcept1copy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,15 +183,16 @@
 		70A79B9D18FC7536003BA214 /* Grow */ = {
 			isa = PBXGroup;
 			children = (
-				7E46CFF419018AD000ED7426 /* GrowProject_bg1planets.png */,
+				7E46CFF919019C9A00ED7426 /* GrayScaleLogo.png */,
+				7E46CFFB1901AFD100ED7426 /* GrowPlanetConcept1copy.png */,
 				70A79BA618FC7536003BA214 /* AppDelegate.h */,
 				70A79BA718FC7536003BA214 /* AppDelegate.m */,
 				70A79BA918FC7536003BA214 /* Main.storyboard */,
 				70A79BE818FD9FB4003BA214 /* plotLine.json */,
 				7E46CFEB1900AF9500ED7426 /* IntroViewPlanetScene.h */,
 				7E46CFEC1900AF9500ED7426 /* IntroViewPlanetScene.m */,
-				7E46CFF11900BF0800ED7426 /* GrowLabelNode.h */,
-				7E46CFF21900BF0800ED7426 /* GrowLabelNode.m */,
+				7E46CFF619019BC400ED7426 /* GrowText.h */,
+				7E46CFF719019BC400ED7426 /* GrowText.m */,
 				7E46CFEE1900BE4100ED7426 /* IntroPlanetShape.h */,
 				7E46CFEF1900BE4100ED7426 /* IntroPlanetShape.m */,
 				7E46CFE81900AC7600ED7426 /* IntroViewController.h */,
@@ -197,6 +203,8 @@
 				70A79BE118FC8683003BA214 /* LogInViewController.m */,
 				70A79BAC18FC7536003BA214 /* SignUpViewController.h */,
 				70A79BAD18FC7536003BA214 /* SignUpViewController.m */,
+				7E46CFF11900BF0800ED7426 /* GrowLabelNode.h */,
+				7E46CFF21900BF0800ED7426 /* GrowLabelNode.m */,
 				70A79BAF18FC7536003BA214 /* Images.xcassets */,
 				70A79B9E18FC7536003BA214 /* Supporting Files */,
 			);
@@ -313,9 +321,10 @@
 			files = (
 				70A79BB018FC7536003BA214 /* Images.xcassets in Resources */,
 				70A79BE918FD9FB4003BA214 /* plotLine.json in Resources */,
+				7E46CFFC1901AFD100ED7426 /* GrowPlanetConcept1copy.png in Resources */,
+				7E46CFFA19019C9A00ED7426 /* GrayScaleLogo.png in Resources */,
 				70A79BA218FC7536003BA214 /* InfoPlist.strings in Resources */,
 				70A79BAB18FC7536003BA214 /* Main.storyboard in Resources */,
-				7E46CFF519018AD000ED7426 /* GrowProject_bg1planets.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +346,7 @@
 				7E46CFF01900BE4100ED7426 /* IntroPlanetShape.m in Sources */,
 				7E46CFED1900AF9500ED7426 /* IntroViewPlanetScene.m in Sources */,
 				70A79BE218FC8683003BA214 /* LogInViewController.m in Sources */,
+				7E46CFF819019BC400ED7426 /* GrowText.m in Sources */,
 				7E46CFF31900BF0800ED7426 /* GrowLabelNode.m in Sources */,
 				70A79BAE18FC7536003BA214 /* SignUpViewController.m in Sources */,
 				70A79BE518FD8DA2003BA214 /* StoryTextViewController.m in Sources */,
