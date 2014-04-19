@@ -11,6 +11,7 @@
 #import "GrowLabelNode.h"
 #import "IntroPlanetShape.h"
 #import "GrowText.h"
+#import "BackgroundStars_1.h"
 
 @interface IntroViewPlanetScene ()
 
@@ -37,8 +38,8 @@
     self.backgroundColor = [SKColor blackColor];
     self.scaleMode = SKSceneScaleModeAspectFill;
 
-//    GrowLabelNode *growLabelNode = [self createGrowLabelNode];
-//    [self addChild:growLabelNode];
+    BackgroundStars_1 *backgroundStars_1 = [self createBackgroundStarts_1Contents];
+    [self addChild:backgroundStars_1];
     IntroPlanetShape *introPlanetShape = [self createIntroPlanetShape];
     [self addChild:introPlanetShape];
     GrowText *growText = [self createGrowText];
@@ -55,18 +56,21 @@
 //    [introPlanetShape runAction:keepRotating];
 
 }
+
+-(BackgroundStars_1 *)createBackgroundStarts_1Contents
+{
+    BackgroundStars_1 *backgroundStars_1 = [BackgroundStars_1 node];
+    backgroundStars_1 = [backgroundStars_1 createBackgroundStarts_1Contents];
+    return backgroundStars_1;
+}
+
+
 -(GrowText *)createGrowText
 {
     GrowText *growText = [GrowText node];
     growText = [growText createGrowTextContents];
     return growText;
 }
-//-(GrowLabelNode *)createGrowLabelNode
-//{
-//    GrowLabelNode *growLabelNode = [GrowLabelNode node];
-//    growLabelNode = [growLabelNode createGrowLabelNodeContents];
-//    return growLabelNode;
-//} 
 
 -(IntroPlanetShape *)createIntroPlanetShape
 {
